@@ -1,3 +1,3 @@
-#一、idea editing 快捷键
+# 一、idea editing 快捷键
 
-#二级标题
+## 二级标题
