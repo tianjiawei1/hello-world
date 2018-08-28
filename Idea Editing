@@ -1,6 +1,7 @@
-快捷键	                             英文说明	                                                             中文说明
-Ctrl + Space	       Basic code completion (the name of any class, method or variable)	       补全代码，由于经常与操作系统的输入法的切换冲突，所以实际很少用。一般直接在 idea 中开启输入自动补全机制。
-Ctrl + Shift + Space	Smart code completion (filters the list of methods and variables by expected type	在列出的可选项中只显示出你所输入的关键字最相关的信息。（常用）
+H1  idea editing 快捷键
+快捷键	                                                中文说明
+Ctrl + Space	              补全代码，由于经常与操作系统的输入法的切换冲突，所以实际很少用。一般直接在 idea 中开启输入自动补全机制。
+Ctrl + Shift + Space	      在列出的可选项中只显示出你所输入的关键字最相关的信息。（常用）
 Ctrl + Shift + Enter	Complete statement	代码补全后，自动在代码末尾添加分号结束符
 Ctrl + P	Parameter info (within method call arguments)	在某个方法中，调用该按键后，会展示出这个方法的调用参数列表信息。
 Ctrl + Q	Quick documentation lookup	展示某个类或者方法的 API 说明文档
