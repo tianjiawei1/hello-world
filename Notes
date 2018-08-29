@@ -1,3 +1,10 @@
 分布式服务管理框架zookeeper客户端zkCli.sh使用详解
  博客：https://blog.csdn.net/xyang81/article/details/53053642
+ 
 8,28-8,29zookeeper远程服务连接异常：
+    java连接zookeeper服务器出现“KeeperErrorCode = ConnectionLoss for /test”
+    错误点：
+      1.未配置zookeeper的data，log文件
+      2.本地测试时连接时端口错误  ：22      正确为192.168.32.128:2181
+      3.本地测试时未启动客户端与服务器连接  vm虚拟机启动 192.168.32.128 服务
+      4.出现nullpiontexception：未传入创建的zookeeper对象
