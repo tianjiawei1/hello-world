@@ -970,7 +970,7 @@ public class HelloWorld {
 
 图示：
 
-![img](D:\Typora\笔记\image\fac0.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/fac0.png)
 
 每一个日志的实现框架都有自己的配置文件。使用slf4j以后，**配置文件还是做成日志实现框架自己本身的配置文件；**
 
@@ -1349,7 +1349,7 @@ localhost:8080/abc === 去静态资源文件夹里面找abc
 
 JSP、Velocity、Freemarker、Thymeleaf
 
-![img]https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/91af.png)
+![img]（https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/91af.png)
 
 SpringBoot推荐的Thymeleaf；
 
