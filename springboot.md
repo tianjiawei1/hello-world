@@ -1349,7 +1349,7 @@ localhost:8080/abc === 去静态资源文件夹里面找abc
 
 JSP、Velocity、Freemarker、Thymeleaf
 
-![img]（https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/91af.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/91af.png)
 
 SpringBoot推荐的Thymeleaf；
 
