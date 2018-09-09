@@ -36,7 +36,7 @@ SpringBoot来简化Spring应用开发，约定大于配置，去繁从简，just
 单体应用：	All IN ONE
 ```
 
-![img](D:\Typora\笔记\image\SPAJ.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/SPAJ.png)
 
 [详细参照微服务文档](https://martinfowler.com/articles/microservices.html#MicroservicesAndSoa)
 
@@ -221,7 +221,7 @@ public @interface EnableAutoConfiguration {
 
  会给容器中导入非常多的自动配置类（xxxAutoConfiguration）；就是给容器中导入这个场景需要的所有组件，并配置好这些组件。
 
-![img](D:\Typora\笔记\image\111b.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/111b.png)
 
 有了自动配置类，免去了我们手动编写配置注入功能组件等的工作
 
@@ -404,7 +404,7 @@ public class Person {
 
 #### 1、properties配置文件在idea中默认utf-8可能会乱码
 
-![img](D:\Typora\笔记\image\9326.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/9326.png)
 
 #### 2、@Value获取值和@ConfigurationProperties获取值比较
 
@@ -980,7 +980,7 @@ a（slf4j+logback）: Spring（commons-logging）、Hibernate（jboss-logging）
 
 统一日志记录，即使是别的框架和我一起统一使用slf4j进行输出？
 
-![img](D:\Typora\笔记\image\f4ad.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/f4ad.png)
 
 **如何让系统中所有的日志都统一到slf4j；**
 
@@ -1010,7 +1010,7 @@ SpringBoot使用它来做日志功能；
 
 底层依赖关系
 
-![img](D:\Typora\笔记\image\5d52.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/5d52.png)
 
 总结：
 
@@ -1029,7 +1029,7 @@ public abstract class LogFactory {
     static LogFactory logFactory = new SLF4JLogFactory();
 ```
 
-![img](D:\Typora\笔记\image\fb5c.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/fb5c.png)
 
  4、如果我们要引入其他框架？一定要把这个框架的默认日志依赖移除掉？
 
@@ -1314,7 +1314,7 @@ WebMvcAuotConfiguration：
 
 <http://www.webjars.org/>
 
-![img](D:\Typora\笔记\image\bed2.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/bed2.png)
 
 localhost:8080/webjars/jquery/3.3.1/jquery.js
 
@@ -1349,7 +1349,7 @@ localhost:8080/abc === 去静态资源文件夹里面找abc
 
 JSP、Velocity、Freemarker、Thymeleaf
 
-![img](D:\Typora\笔记\image\91af.png)
+![img]https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/91af.png)
 
 SpringBoot推荐的Thymeleaf；
 
@@ -1421,7 +1421,7 @@ public class ThymeleafProperties {
 
  th：任意html属性；来替换原生属性的值
 
-![img](D:\Typora\笔记\image\14b1.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/14b1.png)
 
 2、表达式？
 
@@ -1736,7 +1736,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
 
 1、编写国际化配置文件，抽取页面需要显示的国际化消息
 
-![img](D:\Typora\笔记\image\7a6a.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/7a6a.png)
 
 2、SpringBoot自动配置好了管理国际化资源文件的组件；
 
@@ -1773,7 +1773,7 @@ public class MessageSourceAutoConfiguration {
 
 3、去页面获取国际化的值；
 
-![img](D:\Typora\笔记\image\9dbb.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/9dbb.png)
 
 ```html
 <!DOCTYPE html>
@@ -2193,17 +2193,17 @@ footer th:fragment="copy">
 
  1、浏览器，返回一个默认的错误页面
 
-![img](D:\Typora\笔记\image\d213.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/d213.png)
 
 浏览器发送请求的请求头：
 
-![img](D:\Typora\笔记\image\9713.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/9713.png)
 
 2、如果是其他客户端，默认响应一个json数据
 
-![img](D:\Typora\笔记\image\8d9d.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/8d9d.png)
 
-![img](D:\Typora\笔记\image\d8cf.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/d8cf.png)
 
 原理：
 
@@ -2408,13 +2408,13 @@ public class MyErrorAttributes extends DefaultErrorAttributes {
 
 最终的效果：响应是自适应的，可以通过定制ErrorAttributes改变需要返回的内容，
 
-![img](D:\Typora\笔记\image\98c9.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/98c9.png)
 
 ## 8、配置嵌入式Servlet容器
 
 SpringBoot默认使用Tomcat作为嵌入式的Servlet容器；
 
-![img](D:\Typora\笔记\image\cda8.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/cda8.png)
 
 问题？
 
@@ -2515,7 +2515,7 @@ public ServletRegistrationBean dispatcherServletRegistration(
 
 ### 8.3、替换为其他嵌入式Servlet容器
 
-![img](D:\Typora\笔记\image\4a28.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/4a28.png)
 
 默认支持：
 
@@ -2639,11 +2639,11 @@ public interface EmbeddedServletContainerFactory {
 }
 ```
 
-![img](D:\Typora\笔记\image\4991.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/4991.png)
 
 2、EmbeddedServletContainer：（嵌入式的Servlet容器）
 
-![img](D:\Typora\笔记\image\a8e2.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/a8e2.png)
 
 3、以**TomcatEmbeddedServletContainerFactory**为例
 
@@ -2902,7 +2902,7 @@ Spring的web模块里面有这个文件：**org.springframework.web.SpringServle
 
 4、每一个WebApplicationInitializer都调用自己的onStartup；
 
-![img](D:\Typora\笔记\image\f3eb.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/f3eb.png)
 
 5、相当于我们的SpringBootServletInitializer的类会被创建对象，并执行onStartup方法
 
@@ -2999,7 +2999,7 @@ Docker支持将软件编译成一个镜像；然后在镜像中各种软件做�
 
 运行中的这个镜像称为容器，容器启动是非常快速的。
 
-![img](D:\Typora\笔记\image\efd0.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/efd0.png)
 
 ## 2、核心概念
 
@@ -3013,7 +3013,7 @@ docker镜像(Images)：软件打包好的镜像；放在docker仓库中；
 
 docker容器(Container)：镜像启动后的实例称为一个容器；容器是独立运行的一个或一组应用
 
-![img](D:\Typora\笔记\image\dfbb.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/dfbb.png)
 
 使用Docker的步骤：
 
@@ -3322,7 +3322,7 @@ public class DruidConfig {
 </dependency>
 ```
 
-![img](D:\Typora\笔记\image\828d.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/828d.png)
 
 步骤：
 
@@ -3400,7 +3400,7 @@ mybatis:
 
 #### 6.1、SpringData简介
 
-![img](D:\Typora\笔记\image\f8d2.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/f8d2.png)
 
 #### 6.2、整合SpringData JPA
 
@@ -3483,9 +3483,9 @@ private void initialize(Object[] sources) {
 }
 ```
 
-![img](D:\Typora\笔记\image\5409.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/5409.png)
 
-![img](D:\Typora\笔记\image\de14.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/de14.png)
 
 ### 2、运行run方法
 
