@@ -768,7 +768,7 @@ public class StoreIntegration {
 
 Hystrix的主要作用是会采集每一个HystrixCommand的信息指标,把每一个断路器的信息指标显示的Hystrix仪表盘上。
 
-![img](D:\Typora\笔记\image\46ae.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/46ae.png)
 
 环境需要
 
