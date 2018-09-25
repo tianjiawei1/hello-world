@@ -50,13 +50,13 @@
 
 团队内：
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml\wpsDEC0.tmp.jpg) 
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/1537.jpg) 
 
  
 
 跨团队协作：
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml\wpsDEC1.tmp.jpg) 
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/1538.jpg) 
 
  
 
@@ -175,9 +175,9 @@ Soft：仅仅在本地库移动HEAD指针
 $ git reset - - soft [索引值]
 ```
 
- Soft:![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml\wpsDEC2.tmp.jpg)
+ Soft:![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/1539.jpg)
 
-Mixed:![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml\wpsDED3.tmp.jpg)
+Mixed:![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/1536.jpg)
 
  
 
@@ -209,7 +209,7 @@ $ rm apple.txt  -----> $ git add apple.txt ----> $ git status---->$git reset - -
 
 ### 2.8分支概述 ：复制 master  hot_fix
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml\wpsDED4.tmp.jpg) 
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/1535.jpg) 
 
 #### 2.8.2分支的好处:同时并行推进多个功能开发，提高开发效率
 
@@ -253,9 +253,9 @@ Git 分布式版本控制   小型文件系统的一组快照（提交对象及�
 
 #### 3.3分支管理
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml\wpsDED5.tmp.jpg) 
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/1535.jpg) 
 
-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml\wpsDED6.tmp.jpg) 
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/1535.jpg) 
 
 ### 4.本地库和远程库交互
 
