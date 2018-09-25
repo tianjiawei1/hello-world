@@ -864,10 +864,12 @@ boolean anyStartsWithA = stringCollection
         .stream()
         .anyMatch((s) ->s.startsWith("a"));
 
-System.out.println(anyStartsWithA);     // trueboolean allStartsWithA = stringCollection
+System.out.println(anyStartsWithA);     // true
+boolean allStartsWithA = stringCollection
         .stream()
         .allMatch((s) ->s.startsWith("a"));
-System.out.println(allStartsWithA);     // falseboolean noneStartsWithZ = stringCollection
+System.out.println(allStartsWithA);     // false
+boolean noneStartsWithZ = stringCollection
         .stream()
         .noneMatch((s) ->s.startsWith("z"));
 System.out.println(noneStartsWithZ);     // true
@@ -1055,7 +1057,7 @@ requires cms;
 
 我们可以如下展示模块： 
 
- ![img](E:\Typora\笔记\image\E9XZ.png)
+ ![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/W3VN.png)
 
 请注意，两个模块都包含封装的包，因为它们没有被导出（使用橙色盾牌可视化）。 没有人会偶然地使用来自这些包中的类。Java 平台本身也使用自己的模块系统进行了模块化。通过封装 JDK 的内部类，平台更安全，持续改进也更容易。
 
@@ -1069,7 +1071,7 @@ requires cms;
 
 许多语言已经具有交互式编程环境，Java 现在加入了这个俱乐部。您可以从控制台启动 jshell ，并直接启动输入和执行 Java 代码。 jshell 的即时反馈使它成为探索 API 和尝试语言特性的好工具。
 
-![img](E:\Typora\笔记\image\AQOZ.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/AYAX.png)
 
 测试一个 Java 正则表达式是一个很好的说明 jshell 如何使您的生活更轻松的例子。 交互式 shell 还可以提供良好的教学环境以及提高生产力，您可以在此了解更多信息。在教人们如何编写 Java 的过程中，不再需要解释 “public static void main（String [] args）” 这句废话。
 
@@ -1077,7 +1079,7 @@ requires cms;
 
 Javadoc 现在支持在 API 文档中的进行搜索。另外，Javadoc 的输出现在符合兼容 HTML5 标准。此外，你会注意到，每个 Javadoc 页面都包含有关 JDK 模块类或接口来源的信息。
 
-![img](E:\Typora\笔记\image\3P3T.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/J6FF.png)
 
 
 
