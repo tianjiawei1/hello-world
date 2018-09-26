@@ -221,11 +221,12 @@ $ rm apple.txt  -----> $ git add apple.txt ----> $ git status---->$git reset - -
 查看:$ git branch -v
 创建：$ git branch [分支名]
 切换：$ git checkout [分支名]
+
+```
 合并：
 	①切换到接受修改的分支（被合并，增加新内容）上 git checkout[被合并分支]
 	②执行merge命令   
 $ git merge [有新内容分支名]
-```
 
 解决冲突：手动解决
 	①编辑文件：删除特殊符号
