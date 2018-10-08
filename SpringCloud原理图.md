@@ -2,7 +2,7 @@
 
 #### 服务注册发现组件Eureka工作原理 
 
-![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/33W7.png)
+![img](https://github.com/tianjiawei1/practice/blob/master/src/com/atguigu/image/DXUL.png)
 
 #### 服务网关组件Zuul工作原理 
 
