@@ -1,5 +1,6 @@
 **set global log_bin_trust_function_creators=TRUE;**
-create function currval(v_seq_name VARCHAR(50))   
+  
+  create function currval(v_seq_name VARCHAR(50))   
 returns integer(11) 
 begin
  declare value integer;
